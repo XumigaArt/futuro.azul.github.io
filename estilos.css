@@ -9,6 +9,7 @@ nav {
     padding-top: 20px;
     padding-bottom: 20px;
     margin-bottom: 50px;
+    margin-top: 0;
     color: #F1F1F1;
     text-transform: uppercase;
     font-weight: 100;
@@ -43,9 +44,10 @@ body {
     transform: translate(-50%, -50%);
     color: white;
     font-family: Arial, sans-serif;
-    font-size: 62px;
+    font-size: ;
     font-weight: bold;
     text-align: center;
+    text-transform: uppercase;
 }
 
 /* Barra de navegação */
