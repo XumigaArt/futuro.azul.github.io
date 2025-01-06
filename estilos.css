@@ -99,3 +99,40 @@ footer .latline {
     align-content: center;
     margin-top: 2%;
 }
+
+
+.animal1 {
+    background-color: #012053;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+.animal1 img {
+    height: 25rem;
+}
+
+.animal2 {
+    background-color: #003399;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+.animal2 img {
+    height: 25rem;
+}
+
+.animal3 {
+    background-color: #004aa2;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+.animal3 img {
+    height: 25rem;
+}
+
+.animal4 {
+    background-color: #0C2A5A;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+.animal4 img {
+    height: 25rem;
+}
