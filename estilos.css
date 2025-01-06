@@ -4,14 +4,18 @@ header {
     font-weight: 100;
     font-size: 5rem;
 }
+header img {
+    width: 100%;
+    height: auto;
+}
+
 
 
 nav {
     background-color: #003399;
     padding-top: 20px;
     padding-bottom: 20px;
-    margin-bottom: 50px;
-    margin-top: 0;
+    margin: 0;
     color: #F1F1F1;
     text-transform: uppercase;
     font-weight: 100;
@@ -26,10 +30,23 @@ body {
     color: white;
 }
 
+#poluicao {
+    background-color: #0A0624;
+    margin: 0;
+    padding-top: 20rem;
+    padding-bottom: 20rem;
+}
+
+.mapa {
+    margin: 0;
+    padding-top: 20rem;
+    padding-bottom: 20rem;
+    background-color: #012053;
+}
+
 .mapa img {
     width: 100%;
     height: auto;
-    margin-bottom: 20px;
 }
 
 
@@ -80,9 +97,4 @@ footer .latline {
     height: 0.1rem;
     align-content: center;
     margin-top: 2%;
-}
-
-header img {
-    width: 100%;
-    height: auto;
 }
