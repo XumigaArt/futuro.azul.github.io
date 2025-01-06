@@ -37,6 +37,12 @@ body {
     transform: translate(-50%,-50%);
 }
 
+.mapa img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
 .img-container {
     position: relative;
     display: inline-block;
