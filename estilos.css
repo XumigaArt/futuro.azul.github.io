@@ -3,6 +3,28 @@
     margin: 0;
     display: block;
 }
+
+#logo {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.texto_logo {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 4rem;
+    font-weight: 100;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
 header {
     text-transform: uppercase;
     font-weight: 100;
@@ -11,7 +33,7 @@ header {
 
 
 nav {
-    background-color: #303030;
+    background-color: #003399;
     padding-top: 20px;
     padding-bottom: 20px;
     margin-bottom: 50px;
@@ -19,7 +41,7 @@ nav {
     color: #F1F1F1;
     text-transform: uppercase;
     font-weight: 100;
-    font-size: 1.8rem;
+    font-size: 1rem;
 }
 
 body {
@@ -30,99 +52,63 @@ body {
     color: white;
 }
 
-#logo {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
-
 .mapa img {
     width: 100%;
     height: auto;
     margin-bottom: 20px;
 }
 
-.img-container {
-    position: relative;
-    display: inline-block;
-    width: 100%;
-}
 
-.texto_logo {
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-family: Arial, sans-serif;
-    font-size: 1.8rem;
-    font-weight: bold;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-/* Barra de navegação */
-.barra_nav {
-    background-color: #0044cc;
-    overflow: hidden;
-    width: 100%;
-    z-index: 1000;
-    text-align: center;
-}
-
-/* Lista dentro da barra */
-.barra_nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: inline-flex;
-    justify-content: center;
-    gap: 15px;
-}
-
-/* Links */
-.barra_nav a {
+a:link {
+    color: #F1F1F1;
     text-decoration: none;
-    color: white;
-    padding: 10px 20px;
-    font-size: 18px;
-    font-family: Arial, sans-serif;
-    background-color: transparent;
-    transition: background-color 0.3s;
-    position: sticky;
+}
+a:visited {
+    color: #F1F1F1;
+}
+a:hover {
+    color: #FF4949;
+    font-weight: 400;
+}
+a:active {
+    color: red;
 }
 
-/* Efeito hover */
-.barra_nav a:hover {
+
+footer {
     background-color: #003399;
-    border-radius: 5px;
+    color: #F1F1F1;
+    font-weight: 400;
+    font-size: 1.8rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 
-#titulo1 {
-    padding-top: 5%;
-    text-align: center;
+footer .socials {
+    width: 5%;
+    height: auto;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    fill: #F1F1F1;
 }
 
-#subtexto1 {
-    font-size: 24px;
-    text-align: center;
-    padding-left: 2%;
-    padding-right: 2%;
-    padding-bottom: 5%;
+footer .line {
+    background-color: #F1F1F1;
+    padding-top: 0.1rem;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 7rem;
+    margin-bottom: 2rem;
 }
 
-.titulo2 {
-    padding-left: 10%;
-    padding-top: 8%;
+footer .latline {
+    background-color: #F1F1F1;
+    height: 0.1rem;
+    align-content: center;
+    margin-top: 2%;
 }
 
-.subtexto2 {
-    padding-left: 10%;
+header img {
+    width: 100%;
+    height: auto;
 }
-
-.container_especies {
-    height: 400px;
-    background-color: #003399;
-}
-
