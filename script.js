@@ -1,19 +1,6 @@
+var audio = new Audio('imgs/audio/goat-sound-effect-259473.mp3');
+<audio id="audio" src="imgs/audio/goat-sound-effect-259473.mp3"></audio>;
+    document.getElementById("logo").addEventListener("click", function(){
+    document.getElementById("audio").play()});
 
-    <script>
-        // Get references to the image and audio elements
-        const image = document.getElementById('logo');
-        const audio = document.getElementById('audio');
 
-
-        image.addEventListener('click', () => {
-        if (audio.paused) {
-        audio.play()
-        .catch(error => {
-        console.error("Error playing audio:", error);
-    });
-    } else {
-        audio.currentTime = 0; //
-        audio.play();
-    }
-    });
-    </script>
