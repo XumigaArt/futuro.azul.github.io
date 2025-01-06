@@ -39,73 +39,70 @@
     </div>
 
         <div class="col-xl-6">
-            <button class="botao">Sabe mais!</button>
+            <button id="baleiabutton" class="botao">Sabe mais!</button>
         </div>
     </div>
 
 </div>
 </section>
 
-
-<!--Pop-Up Baleia-->
-
-<section>
+<section class="animal1">
     <div class="container">
-        <div class="popUpHeader">
-            <button data-close-button id="closePopUpBtn">&times;</button>
-        </div>
+
         <div class="row">
-            <div class="col-xl-8">
-                <h1 class="popUpTitle">Baleia Azul</h1>
-                <p class="popUpText">Considerada um dos maiores animais do mundo, a baleia-azul têm sua caça proibida desde 1986, mas sofre com outras ameaças.
-
-                    O krill, principal alimento de diversas criaturas do mar, é alvo de pescas abundantes.
-
-                    Algumas baleias, fracas ou doentes por falta de comida, são levadas pela corrente e acabam encalhadas em alguma praia.
-
-                    Outras ainda se magoam ao colidir com embarcações navegando em áreas que não deviam.
-                </p>
-
+            <div class="col-xl-6">
+                <img class="imgAnimal" alt="Baleia Azul" src="../imgs/animals/baleia_azul.png"/>
             </div>
-            <div class="col-xl-4">
-                <img alt="Baleia Azul" src="../imgs/animals/baleia_azul.png"/>
 
+            <div class="col-xl-6">
+                <button id="axolotebutton" class="botao">Sabe mais!</button>
             </div>
         </div>
-    </div>
-</section>
-    <div id="overlay"></div>
 
-<section class="animal2">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <img alt="Baleia Azul" src="../imgs/animals/pinguin.png"/>
-            </div>
-        </div>
     </div>
 </section>
 
-<section class="animal3">
+<section class="animal1">
     <div class="container">
+
         <div class="row">
-            <div class="col-12">
-                <img alt="Baleia Azul" src="../imgs/animals/axolote.png"/>
+            <div class="col-xl-6">
+                <img class="imgAnimal" alt="Baleia Azul" src="../imgs/animals/baleia_azul.png"/>
+            </div>
+
+            <div class="col-xl-6">
+                <button id="pinguinbutton" class="botao">Sabe mais!</button>
             </div>
         </div>
+
     </div>
 </section>
 
-<section class="animal4">
+<section class="animal1">
     <div class="container">
+
         <div class="row">
-            <div class="col-12">
-                <img alt="Baleia Azul" src="../imgs/animals/turtle.png">
+            <div class="col-xl-6">
+                <img class="imgAnimal" alt="Baleia Azul" src="../imgs/animals/baleia_azul.png"/>
+            </div>
+
+            <div class="col-xl-6">
+                <button id="turtlebutton" class="botao">Sabe mais!</button>
             </div>
         </div>
+
     </div>
 </section>
 
+<!-- The Modal -->
+<div id="myModal" class="modal">
+    <!-- Modal content -->
+    <div id="modal-content" class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Welcome to the popup!</h2>
+        <p>This is a custom modal popup.</p>
+    </div>
+</div>
 
 
 <footer>
@@ -141,9 +138,40 @@
 </body>
 
 
+<div hidden id="baleiacontent">
+    <span class="close">&times;</span>
+    <h2>Baleia Azul</h2>
+    <p>Considerada um dos maiores animais do mundo, a baleia-azul têm sua caça proibida desde 1986, mas sofre com outras ameaças.
+
+        O krill, principal alimento de diversas criaturas do mar, é alvo de pescas abundantes.
+
+        Algumas baleias, fracas ou doentes por falta de comida, são levadas pela corrente e acabam encalhadas em alguma praia.
+
+        Outras ainda se magoam ao colidir com embarcações navegando em áreas que não deviam.
+    </p>
+    <img alt="Baleia Azul" src="../imgs/animals/baleia_azul.png"/>
+</div>
+
+<div hidden id="axolotecontent">
+    <span class="close">&times;</span>
+    <h2>axolote</h2>
+    <p>This is asdasdasBaleia</p>
+</div>
+
+<div hidden id="pinguincontent">
+    <span class="close">&times;</span>
+    <h2>pinguin</h2>
+    <p>Thisnão tou a perceber bro??Baleia</p>
+</div>
+
+<div hidden id="turtlecontent">
+    <span class="close">&times;</span>
+    <h2>turtle</h2>
+    <p>This isasddsaasdasdasd Baleia</p>
+</div>
 
 
 
+<script src="../script.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-<script src="script.js"></script>
 </html>
