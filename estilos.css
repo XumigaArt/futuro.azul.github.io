@@ -105,6 +105,10 @@ footer .latline {
     background-color: #012053;
     padding-top: 6rem;
     padding-bottom: 6rem;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 500px;
+
 }
 .animal1 img {
     height: 25rem;
@@ -114,6 +118,9 @@ footer .latline {
     background-color: #003399;
     padding-top: 6rem;
     padding-bottom: 6rem;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 500px;
 }
 .animal2 img {
     height: 25rem;
@@ -123,6 +130,9 @@ footer .latline {
     background-color: #004aa2;
     padding-top: 6rem;
     padding-bottom: 6rem;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 500px;
 }
 .animal3 img {
     height: 25rem;
@@ -132,6 +142,9 @@ footer .latline {
     background-color: #0C2A5A;
     padding-top: 6rem;
     padding-bottom: 6rem;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 500px;
 }
 .animal4 img {
     height: 25rem;
