@@ -28,23 +28,34 @@
 </nav>
 
 
+<!--Baleia-->
 
 <section class="animal1">
 <div class="container">
-    <div class=" content">
-  <div class="row">
-    <div class="col-12">
-        <img alt="Baleia Azul" src="../imgs/animals/baleia_azul.png"/>
-        <button data-modal-target="#popUP">abre</button>
-    </div>
-  </div>
-    </div>
-</div>
 
-<section id="popUp" class="popUP">
+  <div class="row">
+    <div class="col-xl-6">
+        <img class="imgAnimal" alt="Baleia Azul" src="../imgs/animals/baleia_azul.png"/>
+    </div>
+
+        <div class="col-xl-6">
+            <button class="botao">Sabe mais!</button>
+        </div>
+    </div>
+
+</div>
+</section>
+
+
+<!--Pop-Up Baleia-->
+
+<section>
     <div class="container">
+        <div class="popUpHeader">
+            <button data-close-button id="closePopUpBtn">&times;</button>
+        </div>
         <div class="row">
-            <div class="col-8">
+            <div class="col-xl-8">
                 <h1 class="popUpTitle">Baleia Azul</h1>
                 <p class="popUpText">Considerada um dos maiores animais do mundo, a baleia-azul têm sua caça proibida desde 1986, mas sofre com outras ameaças.
 
@@ -56,8 +67,7 @@
                 </p>
 
             </div>
-            <div class="col-4">
-                <button data-close-button id="closePopUpBtn">&times;</button>
+            <div class="col-xl-4">
                 <img alt="Baleia Azul" src="../imgs/animals/baleia_azul.png"/>
 
             </div>
@@ -65,9 +75,6 @@
     </div>
 </section>
     <div id="overlay"></div>
-
-
-</section>
 
 <section class="animal2">
     <div class="container">
