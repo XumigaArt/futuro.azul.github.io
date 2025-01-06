@@ -99,3 +99,7 @@ footer .latline {
     align-content: center;
     margin-top: 2%;
 }
+
+#baleia_popup {
+    display: none;
+}
