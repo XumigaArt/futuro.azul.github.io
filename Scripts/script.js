@@ -1,17 +1,3 @@
-//Mapa Interativo
-var triggerImage = document.getElementById("escondido");
-var europaImage = document.getElementById("mouse_over_europa");
-
-europaImage.style.display = "none";
-
-triggerImage.addEventListener("click", () => {
-    if (europaImage.style.display === "none") {
-        europaImage.style.display = "block";
-    } else {
-        europaImage.style.display = "none";
-    }
-});
-
 //Navigator
 
 document.getElementById('nav1').onclick = function () {
@@ -104,5 +90,13 @@ window.onclick = function(event) {
     }
 }
 
+//Mapa Interativo
+var trigger = document.getElementById('escondido');
+var escondido = document.getElementById('mouse_over_europa');
 
+// Adiciona o evento de clique à imagem
+trigger.addEventListener('click', function() {
+    // Altera o estilo de display da imagem escondida
+    escondido.style.display = 'block';
+});
 
