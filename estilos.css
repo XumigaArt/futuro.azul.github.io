@@ -309,3 +309,9 @@ footer .latline {
     align-items: center;
 }
 
+.regiaonome {
+    position: relative;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+
