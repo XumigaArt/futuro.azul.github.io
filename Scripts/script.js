@@ -5,19 +5,19 @@ document.getElementById('nav1').onclick = function () {
 }
 
 document.getElementById('nav2').onclick = function () {
-    window.location.href = "https://xumigaart.github.io/futuro.azul.github.io/pages/animals.html";
+    window.location.href = "../pages/animals.html";
 }
 
 document.getElementById('nav3').onclick = function () {
-    window.location.href = "https://xumigaart.github.io/futuro.azul.github.io/pages/animals.html";
+    window.location.href = "../pages/animals.html";
 }
 
 document.getElementById('nav4').onclick = function () {
-    window.location.href = "https://xumigaart.github.io/futuro.azul.github.io/pages/animals.html";
+    window.location.href = "../pages/animals.html";
 }
 
 document.getElementById('nav5').onclick = function () {
-    window.location.href = "https://xumigaart.github.io/futuro.azul.github.io/pages/animals.html";
+    window.location.href = "../pages/animals.html";
 }
 
 
@@ -65,6 +65,79 @@ console.log(animal);
 
 
 
+
+//Modals Regiões
+
+const regiao = 'none';
+
+
+document.getElementById('asiabutton').onclick = function () {
+    const animal = 'asia'
+    document.getElementById('modal-content').innerHTML = document.getElementById('asiacontent').innerHTML;
+    modal.style.display = "block";
+
+    console.log(animal);
+}
+document.getElementById('caraibasbutton').onclick = function () {
+    const animal = 'caraibas'
+    document.getElementById('modal-content').innerHTML = document.getElementById('caraibascontent').innerHTML;
+    modal.style.display = "block";
+
+    console.log(animal);
+}
+document.getElementById('africaocidentalbutton').onclick = function () {
+    const animal = 'africaOcidental'
+    document.getElementById('modal-content').innerHTML = document.getElementById('africaocidentalcontent').innerHTML;
+    modal.style.display = "block";
+
+    console.log(animal);
+}
+document.getElementById('europabutton').onclick = function () {
+    const animal = 'europa'
+    document.getElementById('modal-content').innerHTML = document.getElementById('europacontent').innerHTML;
+    modal.style.display = "block";
+
+    console.log(animal);
+}
+document.getElementById('americanortebutton').onclick = function () {
+    const animal = 'americaNorte'
+    document.getElementById('modal-content').innerHTML = document.getElementById('americanortecontent').innerHTML;
+    modal.style.display = "block";
+
+    console.log(animal);
+}
+document.getElementById('oceaniabutton').onclick = function () {
+    const animal = 'oceania'
+    document.getElementById('modal-content').innerHTML = document.getElementById('oceaniacontent').innerHTML;
+    modal.style.display = "block";
+
+    console.log(animal);
+}
+document.getElementById('americasulbutton').onclick = function () {
+    const animal = 'americaSul'
+    document.getElementById('modal-content').innerHTML = document.getElementById('americasulcontent').innerHTML;
+    modal.style.display = "block";
+
+    console.log(animal);
+}
+document.getElementById('antartidabutton').onclick = function () {
+    const animal = 'antartida'
+    document.getElementById('modal-content').innerHTML = document.getElementById('antartidacontent').innerHTML;
+    modal.style.display = "block";
+
+    console.log(animal);
+}
+
+console.log(animal);
+
+
+
+
+
+//Modal Script
+
+
+
 var modal = document.getElementById("myModal");
 
 // Get the button that opens the modal
@@ -89,6 +162,11 @@ window.onclick = function(event) {
         modal.style.display = "none";
     }
 }
+
+
+
+
+
 
 //Mapa Interativo
 var trigger = document.getElementById('escondido');
