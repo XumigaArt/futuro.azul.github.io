@@ -48,8 +48,24 @@ body {
 .mapa img {
     width: 100%;
     height: auto;
+    object-fit: cover;
 }
 
+
+#escondido {
+    position: absolute;
+    width: 25%;
+    margin-top: 2%;
+    margin-left: 30%;
+    display: block;
+}
+
+#mouse_over_europa {
+    position:absolute;
+    width: 40%;
+    margin-left: 30%;
+    display: none;
+}
 
 a:link {
     color: #F1F1F1;
@@ -195,3 +211,4 @@ footer .latline {
 .animal3 {
     background-color: #003399;
 }
+

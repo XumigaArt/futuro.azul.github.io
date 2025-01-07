@@ -89,3 +89,14 @@ window.onclick = function(event) {
         modal.style.display = "none";
     }
 }
+
+//Mapa Interativo
+var trigger = document.getElementById('escondido');
+var escondido = document.getElementById('mouse_over_europa');
+
+// Adiciona o evento de clique à imagem
+trigger.addEventListener('click', function() {
+    // Altera o estilo de display da imagem escondida
+    escondido.style.display = 'block';
+});
+
