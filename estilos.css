@@ -173,7 +173,7 @@ footer .latline {
     margin-top: 25%;
     width: 20rem;
     height: 50%;
-    background-color: #003399;
+    background-color: #132D55;
     color: white;
     border-radius: 5px;
     font-size: 2rem;
@@ -182,4 +182,16 @@ footer .latline {
     left: 50%;
     right: 50%;
     bottom: 50%;
+}
+
+.animal1 {
+    background-color: #004aa2;
+}
+
+.animal2 {
+    background-color: #012053;
+}
+
+.animal3 {
+    background-color: #003399;
 }
