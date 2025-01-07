@@ -1,11 +1,24 @@
 //Navigator
 
-
+document.getElementById('nav1').onclick = function () {
+    window.location.href = "https://xumigaart.github.io/futuro.azul.github.io/";
+}
 
 document.getElementById('nav2').onclick = function () {
     window.location.href = "https://xumigaart.github.io/futuro.azul.github.io/pages/animals.html";
 }
 
+document.getElementById('nav3').onclick = function () {
+    window.location.href = "https://xumigaart.github.io/futuro.azul.github.io/pages/animals.html";
+}
+
+document.getElementById('nav4').onclick = function () {
+    window.location.href = "https://xumigaart.github.io/futuro.azul.github.io/pages/animals.html";
+}
+
+document.getElementById('nav5').onclick = function () {
+    window.location.href = "https://xumigaart.github.io/futuro.azul.github.io/pages/animals.html";
+}
 
 
 
