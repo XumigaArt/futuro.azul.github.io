@@ -1,3 +1,102 @@
+// Mapa Interativo
+
+//Europa
+var triggerImage = document.getElementById("escondido");
+var europaImage = document.getElementById("mouse_over_europa");
+
+europaImage.style.display = "none";
+
+triggerImage.addEventListener("click", (event) => {
+    europaImage.style.display = "block";
+    event.stopPropagation();
+});
+document.addEventListener("click", () => {
+    europaImage.style.display = "none";
+});
+
+//África
+var triggerImage2 = document.getElementById("escondido2");
+var africaImage = document.getElementById("mouse_over_africa");
+
+africaImage.style.display = "none";
+
+triggerImage2.addEventListener("click", (event) => {
+    africaImage.style.display = "block";
+    event.stopPropagation();
+});
+document.addEventListener("click", () => {
+    africaImage.style.display = "none";
+});
+
+//Ásia
+var triggerImage3 = document.getElementById("escondido3");
+var asiaImage = document.getElementById("mouse_over_asia");
+
+asiaImage.style.display = "none";
+
+triggerImage3.addEventListener("click", (event) => {
+    asiaImage.style.display = "block";
+    event.stopPropagation();
+});
+document.addEventListener("click", () => {
+    asiaImage.style.display = "none";
+});
+
+//América do Norte
+var triggerImage4 = document.getElementById("escondido4");
+var triggerImage4_1 = document.getElementById("escondido4.1");
+var triggerImage4_2 = document.getElementById("escondido4.2");
+var americaDoNorteImage = document.getElementById("mouse_over_america_do_norte");
+
+americaDoNorteImage.style.display = "none";
+
+triggerImage4.addEventListener("click", (event) => {
+    americaDoNorteImage.style.display = "block";
+    event.stopPropagation();
+});
+
+triggerImage4_1.addEventListener("click", (event) => {
+    americaDoNorteImage.style.display = "block";
+    event.stopPropagation();
+});
+
+triggerImage4_2.addEventListener("click", (event) => {
+    americaDoNorteImage.style.display = "block";
+    event.stopPropagation();
+});
+document.addEventListener("click", () => {
+    americaDoNorteImage.style.display = "none";
+});
+
+//América do Sul
+var triggerImage5 = document.getElementById("escondido5");
+var americaDoSulImage = document.getElementById("mouse_over_america_do_sul");
+
+americaDoSulImage.style.display = "none";
+
+triggerImage5.addEventListener("click", (event) => {
+    americaDoSulImage.style.display = "block";
+    event.stopPropagation();
+});
+document.addEventListener("click", () => {
+    americaDoSulImage.style.display = "none";
+});
+
+//Oceânia
+var triggerImage6 = document.getElementById("escondido6");
+var oceaniaImage = document.getElementById("mouse_over_oceania");
+
+oceaniaImage.style.display = "none";
+
+triggerImage6.addEventListener("click", (event) => {
+    oceaniaImage.style.display = "block";
+    event.stopPropagation();
+});
+document.addEventListener("click", () => {
+    oceaniaImage.style.display = "none";
+});
+
+
 //Navigator
 
 document.getElementById('nav1').onclick = function () {
@@ -90,13 +189,5 @@ window.onclick = function(event) {
     }
 }
 
-//Mapa Interativo
-var trigger = document.getElementById('escondido');
-var escondido = document.getElementById('mouse_over_europa');
 
-// Adiciona o evento de clique à imagem
-trigger.addEventListener('click', function() {
-    // Altera o estilo de display da imagem escondida
-    escondido.style.display = 'block';
-});
 
