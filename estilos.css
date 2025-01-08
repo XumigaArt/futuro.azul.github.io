@@ -315,3 +315,14 @@ footer .latline {
     transform: translate(0%, -50%);
 }
 
+.titulo1 {
+    padding-top: 3rem;
+}
+
+.titulo2 {
+    padding-top: 3rem;
+    font-size: 1.5rem;
+}
+.subtexto1 {
+    padding-top: 3rem;
+}
