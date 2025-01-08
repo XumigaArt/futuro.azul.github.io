@@ -5,7 +5,7 @@ document.getElementById('nav1').onclick = function () {
 }
 
 document.getElementById('nav2').onclick = function () {
-    window.location.href = "../pages/animals.html";
+    window.location.href = "../pages/futuroazul.html";
 }
 
 document.getElementById('nav3').onclick = function () {
@@ -13,11 +13,11 @@ document.getElementById('nav3').onclick = function () {
 }
 
 document.getElementById('nav4').onclick = function () {
-    window.location.href = "../pages/animals.html";
+    window.location.href = "../pages/regions.html";
 }
 
 document.getElementById('nav5').onclick = function () {
-    window.location.href = "../pages/animals.html";
+    window.location.href = "../pages/ajudar.html";
 }
 
 
