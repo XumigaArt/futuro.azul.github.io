@@ -326,3 +326,8 @@ footer .latline {
 .subtexto1 {
     padding-top: 3rem;
 }
+
+.externalsite {
+    font-size: 2.5rem;
+    text-decoration: underline;
+}
